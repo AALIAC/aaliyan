@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Aaliyaan — Graphic Designer &amp; Video Editor, Lahore</title>
+<meta name="description" content="Portfolio of M. Aaliyaan — graphic designer & video editor in Lahore, Pakistan. Logo design, branding, social media, packaging, print media & video editing.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="M. Aaliyaan — Graphic Designer & Video Editor">
+<meta property="og:description" content="Logo design, branding, social media, packaging, print media & video editing — Lahore, Pakistan.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=Caveat:wght@600;700&family=Noto+Nastaliq+Urdu:wght@500;700&family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- Link to external CSS file -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================== INTRO (plays once per session) ============================== -->
+<div class="intro-overlay" id="introOverlay" aria-hidden="true">
+  <span class="intro-name">M. Aaliyaan</span>
+  <span class="intro-line"></span>
+</div>
+
+<!-- custom cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ============================== HEADER ============================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-row">
+    <a href="#top" class="brand-mark">M. <span>Aaliyaan</span></a>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Primary">
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#logo-folio" data-i18n="nav_logo">Logo Folio</a>
+      <a href="#branding" data-i18n="nav_branding">Branding</a>
+      <a href="#social" data-i18n="nav_social">Social Media</a>
+      <a href="#packaging" data-i18n="nav_packaging">Packaging</a>
+      <a href="#print" data-i18n="nav_print">Print Media</a>
+      <a href="#video" data-i18n="nav_video">Video Editing</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-tools">
+      <select class="lang-select" id="langSelect" aria-label="Language" data-i18n-aria="lang_select_label"></select>
+      <button class="tool-btn" id="themeToggle" aria-pressed="false" aria-label="Toggle theme" data-i18n-aria="theme_toggle_label">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.6A9 9 0 1 1 11.4 3a7 7 0 0 0 9.6 9.6Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2 12h2.4M19.6 12H22M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================== HERO ============================== -->
+  <section class="hero slot-1" id="hero">
+    <div class="hero-orb" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <p class="eyebrow" data-i18n="hero_eyebrow">Service Provider</p>
+      <h1 class="hero-title">
+        <span data-i18n="hero_title_line1">Portfolio</span><br>
+        <span class="outline">Aaliyaan</span>
+      </h1>
+      <span class="hero-signature f-script">M. Aaliyaan</span>
+      <div class="hero-meta">
+        <span class="hero-meta-item"><span class="hero-meta-dot"></span>Graphic Design</span>
+        <span class="hero-meta-item"><span class="hero-meta-dot"></span>Video Editing</span>
+        <span class="hero-meta-item"><span class="hero-meta-dot"></span>Lahore, Pakistan</span>
+      </div>
+    </div>
+    <div class="hero-scroll"><span class="hero-scroll-line"></span><span data-i18n="hero_scroll">Scroll</span></div>
+  </section>
+
+  <!-- ============================== ABOUT ============================== -->
+  <section class="section slot-2" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div data-reveal>
+          <p class="eyebrow" data-i18n="about_tag">About me</p>
+          <h2 class="section-heading" data-i18n="about_heading">Hello!</h2>
+          <p class="about-body" data-i18n="about_body">I'm a creative and motivated graphic designer and a video editor with a strong passion for visual storytelling and brand design.</p>
+        </div>
+        <div class="about-portrait" data-reveal>
+          <span class="about-doodle f-script">About me →</span>
+          <img src="my_pic.png" alt="Muhammad Abuzar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== SERVICES / TOC ============================== -->
+  <section class="section slot-2" id="services">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow" data-i18n="services_tag">What I do</p>
+        <h2 class="section-heading" data-i18n="services_heading">Table of Contents</h2>
+      </div>
+      <div class="services-grid" data-reveal-group>
+        <a href="#logo-folio" class="service-card" data-reveal-item>
+          <span class="service-num">01</span>
+          <h3 data-i18n="service_01_title">Logo Folio</h3>
+          <p data-i18n="service_01_desc">Custom marks built around a brand's story.</p>
+        </a>
+        <a href="#branding" class="service-card" data-reveal-item>
+          <span class="service-num">02</span>
+          <h3 data-i18n="service_02_title">Branding Design</h3>
+          <p data-i18n="service_02_desc">Full identity systems, start to finish.</p>
+        </a>
+        <a href="#social" class="service-card" data-reveal-item>
+          <span class="service-num">03</span>
+          <h3 data-i18n="service_03_title">Social Media Post</h3>
+          <p data-i18n="service_03_desc">Scroll-stopping content for every feed.</p>
+        </a>
+        <a href="#packaging" class="service-card" data-reveal-item>
+          <span class="service-num">04</span>
+          <h3 data-i18n="service_04_title">Packaging Design</h3>
+          <p data-i18n="service_04_desc">Shelf-ready designs that sell the product.</p>
+        </a>
+        <a href="#print" class="service-card" data-reveal-item>
+          <span class="service-num">05</span>
+          <h3 data-i18n="service_05_title">Print Media Design</h3>
+          <p data-i18n="service_05_desc">Brochures, billboards, standees & more.</p>
+        </a>
+        <a href="#video" class="service-card" data-reveal-item>
+          <span class="service-num">06</span>
+          <h3 data-i18n="service_06_title">Video Editing</h3>
+          <p data-i18n="service_06_desc">Story-first edits that keep people watching.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== LOGO FOLIO ============================== -->
+  <section class="section slot-1" id="logo-folio">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow" data-i18n="logo_tag">01 / Logo Folio</p>
+        <h2 class="section-heading" data-i18n="logo_heading">Logo Folio</h2>
+        <p class="section-caption" data-i18n="logo_caption">My logo folio highlighting custom logos I designed to align with clients' vision & a little practice work.</p>
+      </div>
+      <div class="card-grid" id="logoGrid" data-reveal-group></div>
+    </div>
+  </section>
+
+  <!-- ============================== BRANDING / EMBERLOOP ============================== -->
+  <section class="section slot-2" id="branding">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow" data-i18n="branding_tag">02 / Branding</p>
+        <h2 class="section-heading" data-i18n="branding_heading">Branding</h2>
+        <p class="section-caption" data-i18n="branding_caption">These brand identity design projects involve creating impactful visual identifying marks of their mission & goals.</p>
+      </div>
+
+      <div class="emberloop" data-reveal>
+        <span class="emberloop-tag" data-i18n="branding_case_label">Case Study</span>
+        <h3 class="emberloop-name">emberl<span class="infinity">oo</span>p</h3>
+        <p class="emberloop-sub" data-i18n="branding_case_sub">Sustainable Technology</p>
+        <p class="emberloop-story" data-i18n="branding_story">Emberloop is a sustainable technology brand focused on creating innovative, energy-efficient products that merge natural warmth with advanced design.</p>
+
+        <div class="emberloop-cols">
+          <div class="emberloop-block">
+            <h4 data-i18n="branding_features_heading">Key Features</h4>
+            <ul class="emberloop-features">
+              <li data-i18n="branding_feature_1">Sustainable Innovation</li>
+              <li data-i18n="branding_feature_2">Adaptive Warmth</li>
+              <li data-i18n="branding_feature_3">Infinite Energy Cycle</li>
+              <li data-i18n="branding_feature_4">Smart Design</li>
+              <li data-i18n="branding_feature_5">Nature-Driven Technology</li>
+              <li data-i18n="branding_feature_6">Human-Centered Approach</li>
+              <li data-i18n="branding_feature_7">Intelligent Functionality</li>
+              <li data-i18n="branding_feature_8">Modern Identity</li>
+            </ul>
+          </div>
+          <div class="emberloop-block">
+            <h4 data-i18n="branding_palette_heading">Brand Palette</h4>
+            <div class="palette-row">
+              <span class="swatch"><span class="swatch-dot" style="background:#F2661B"></span><span data-i18n="branding_palette_1">Ember Orange — warmth</span></span>
+              <span class="swatch"><span class="swatch-dot" style="background:#1C1C1B"></span><span data-i18n="branding_palette_2">Graphite Black — strength</span></span>
+              <span class="swatch"><span class="swatch-dot" style="background:#B9B8B2"></span><span data-i18n="branding_palette_3">Silver Gray — precision</span></span>
+              <span class="swatch"><span class="swatch-dot" style="background:#F4F1EA"></span><span data-i18n="branding_palette_4">Off-White — balance</span></span>
+            </div>
+          </div>
+          <div class="emberloop-block">
+            <h4 data-i18n="branding_type_heading">Typography</h4>
+            <p class="emberloop-type-sample" data-i18n="branding_type_value">Poppins Bold</p>
+            <h4 style="margin-top:26px" data-i18n="branding_wordmark_heading">Wordmark Logic</h4>
+            <p class="emberloop-wordmark" data-i18n="branding_wordmark_body">The double "o" is drawn as an infinity symbol — a continuous cycle of creativity and innovation.</p>
+          </div>
+        </div>
+
+        <h4 style="margin-top:50px" data-i18n="branding_mockups_heading">Applications</h4>
+        <div class="emberloop-mockups" id="emberloopMockups"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== SOCIAL MEDIA ============================== -->
+  <section class="section slot-1" id="social">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow" data-i18n="social_tag">03 / Social Media</p>
+        <h2 class="section-heading" data-i18n="social_heading">Social Media Post</h2>
+        <p class="section-caption" data-i18n="social_caption">Visual content I crafted for social networks such as Instagram, Facebook and web interfaces.</p>
+      </div>
+      <div class="card-grid masonry" id="socialGrid" data-reveal-group></div>
+    </div>
+  </section>
+
+  <!-- ============================== PACKAGING ============================== -->
+  <section class="section slot-2" id="packaging">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow" data-i18n="packaging_tag">04 / Packaging</p>
+        <h2 class="section-heading" data-i18n="packaging_heading">Packaging Design</h2>
+        <p class="section-caption" data-i18n="packaging_caption">Designed innovative and visually appealing product packaging that effectively communicates brand identity and enhances customer engagement.</p>
+      </div>
+      <div class="card-grid" id="packagingGrid" data-reveal-group></div>
+    </div>
+  </section>
+
+  <!-- ============================== PRINT MEDIA ============================== -->
+  <section class="section slot-1" id="print">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow" data-i18n="print_tag">05 / Print Media</p>
+        <h2 class="section-heading" data-i18n="print_heading">Print Media</h2>
+        <p class="section-caption" data-i18n="print_caption">High-quality print designs I crafted to enhance offline brand presence.</p>
+      </div>
+
+      <div class="print-sub" data-reveal>
+        <h3 data-i18n="print_brochure_heading">Brochure Design</h3>
+        <div class="card-grid cols-3" id="brochureGrid" data-reveal-group></div>
+      </div>
+
+      <div class="print-sub" data-reveal>
+        <h3 data-i18n="print_billboard_heading">Billboard Design</h3>
+        <div class="card-grid cols-3" id="billboardGrid" data-reveal-group></div>
+      </div>
+
+      <div class="print-sub" data-reveal>
+        <h3 data-i18n="print_standee_heading">Standee Design</h3>
+        <div class="card-grid" id="standeeGrid" data-reveal-group></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== VIDEO EDITING ============================== -->
+  <section class="section slot-2" id="video">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow" data-i18n="video_tag">06 / Video Editing</p>
+        <h2 class="section-heading" data-i18n="video_heading">Video Editing</h2>
+        <p class="section-caption" data-i18n="video_caption">I craft engaging video edits that tell stories, capture attention, and keep viewers hooked from start to finish.</p>
+      </div>
+      <div class="video-grid" data-reveal-group>
+        <div class="phone-frame" data-reveal-item><span class="notch"></span><span class="coming-soon-text" data-i18n="video_coming_soon">Coming Soon!</span><div class="progress-track"><div class="progress-fill"></div></div></div>
+        <div class="phone-frame" data-reveal-item><span class="notch"></span><span class="coming-soon-text" data-i18n="video_coming_soon">Coming Soon!</span><div class="progress-track"><div class="progress-fill"></div></div></div>
+        <div class="phone-frame" data-reveal-item><span class="notch"></span><span class="coming-soon-text" data-i18n="video_coming_soon">Coming Soon!</span><div class="progress-track"><div class="progress-fill"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== CONTACT ============================== -->
+  <section class="section slot-1" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-heading-block" data-reveal>
+          <p class="eyebrow" data-i18n="contact_tag">Get in touch</p>
+          <h2 class="section-heading" data-i18n="contact_heading">Let's Work Together</h2>
+          <span class="f-script" data-i18n="contact_sub">Thanks for Scrolling!</span>
+          <p class="section-caption" data-i18n="contact_body">Have a project in mind? Tell me about it.</p>
+
+          <form class="contact-form" id="contactForm">
+            <div class="field">
+              <label for="cf-name" data-i18n="contact_form_name">Your name</label>
+              <input id="cf-name" name="name" type="text" required>
+            </div>
+            <div class="field">
+              <label for="cf-email" data-i18n="contact_form_email">Your email</label>
+              <input id="cf-email" name="email" type="email" required>
+            </div>
+            <div class="field">
+              <label for="cf-message" data-i18n="contact_form_message">Tell me about your project</label>
+              <textarea id="cf-message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary magnetic"><span data-i18n="contact_form_submit">Send Message</span></button>
+            <p class="form-status" id="contactFormStatus" role="status"></p>
+            <p class="form-note" data-i18n="contact_form_note">This form is a front-end demo — connect it to an email service to receive messages live.</p>
+          </form>
+        </div>
+
+        <div data-reveal>
+          <h3 class="f-display" data-i18n="contact_direct_heading" style="font-size:1.2rem;">Direct contact</h3>
+          <div class="direct-contact">
+            <a href="mailto:sheikhaaliyaan637@mail.com">
+              <span><span class="label" data-i18n="contact_email_label">Email</span><span class="value">sheikhaaliyaan637@mail.com</span></span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+            <a href="#" data-whatsapp-link target="_blank" rel="noopener">
+              <span><span class="label" data-i18n="contact_whatsapp_label">WhatsApp</span><span class="value">+92 322 6914114</span></span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+            <a href="https://instagram.com/aalibaazi" target="_blank" rel="noopener">
+              <span><span class="label" data-i18n="contact_instagram_label">Instagram</span><span class="value">@aalibaazi</span></span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+          <span class="outro-line f-script" data-i18n="hero_scroll" style="display:none"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============================== FOOTER ============================== -->
+<footer class="site-footer slot-1">
+  <div class="container footer-row">
+    <span>© <span id="year"></span> M. Aaliyaan. <span data-i18n="footer_rights">All rights reserved.</span></span>
+    <div class="footer-social">
+      <a href="https://instagram.com/aalibaazi" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:sheikhaaliyaan637@mail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================== FLOATING BUTTONS ============================== -->
+<div class="floating-stack">
+  <a class="fab fab-github magnetic" href="http://github.com/AALIAC" target="_blank" rel="noopener" aria-label="GitHub Repositories" data-i18n-aria="github_label">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+  </a>
+  <a class="fab fab-whatsapp magnetic" data-whatsapp-link target="_blank" rel="noopener" aria-label="WhatsApp" data-i18n-aria="whatsapp_label">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.35a9.86 9.86 0 0 0 4.62 1.15h.01c5.46 0 9.91-4.45 9.91-9.9C21.96 6.45 17.5 2 12.04 2Zm0 17.9c-1.5 0-2.9-.4-4.11-1.13l-.29-.17-3.05.76.8-2.99-.19-.31a8.13 8.13 0 0 1-1.24-4.15c0-4.5 3.66-8.16 8.16-8.16 4.5 0 8.15 3.66 8.15 8.16 0 4.5-3.66 8.16-8.15 8.16Zm4.47-6.12c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.78.95-.14.16-.29.18-.53.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42-.14-.01-.3-.01-.47-.01a.9.9 0 0 0-.65.31c-.22.24-.85.83-.85 2.02 0 1.2.87 2.35.99 2.51.12.16 1.71 2.62 4.15 3.67.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+  </a>
+  <button class="fab fab-chat magnetic" id="chatToggle" aria-expanded="false" aria-controls="chatPanel" aria-label="Chat with me" data-i18n-aria="chatbot_button_label">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg>
+  </button>
+</div>
+
+<!-- ============================== CHATBOT PANEL ============================== -->
+<div class="chat-panel" id="chatPanel" role="dialog" aria-modal="false" aria-hidden="true" aria-labelledby="chatHeaderTitle">
+  <div class="chat-header">
+    <div>
+      <h3 id="chatHeaderTitle" data-i18n="chatbot_header">Ask about Aaliyaan</h3>
+      <p data-i18n="chatbot_subheader">Scripted assistant · usually instant</p>
+    </div>
+    <button class="chat-close" id="chatClose" aria-label="Close chat">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="chat-log" id="chatLog"></div>
+  <div class="chat-suggestions">
+    <button type="button" class="chat-suggestion" data-i18n="chatbot_suggestion_1">What services does he offer?</button>
+    <button type="button" class="chat-suggestion" data-i18n="chatbot_suggestion_2">Tell me about Emberloop</button>
+    <button type="button" class="chat-suggestion" data-i18n="chatbot_suggestion_3">How do I contact him?</button>
+    <button type="button" class="chat-suggestion" data-i18n="chatbot_suggestion_4">What are his rates?</button>
+  </div>
+  <form class="chat-form" id="chatForm">
+    <input type="text" id="chatInput" data-i18n-placeholder="chatbot_placeholder" placeholder="Ask about services, process, brands..." autocomplete="off">
+    <button type="submit" aria-label="Send" data-i18n-aria="chatbot_send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+    </button>
+  </form>
+</div>
+
+<!-- ============================== LIGHTBOX ============================== -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <div class="lightbox-inner">
+    <div id="lightboxContent"></div>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+</div>
+
+<!-- ============================== EXTERNAL LIBRARIES ============================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
